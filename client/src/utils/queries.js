@@ -1,5 +1,5 @@
 import { gql } from '@apollo/client';
-
+// reference typeDefs.js to find out what to fill in via User and saveBookInput
 export const GET_ME = gql`
     query me {
         me {
